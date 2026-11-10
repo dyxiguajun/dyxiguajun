@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="500" viewBox="0 0 1600 500" role="img" aria-labelledby="title desc">
+  <title id="title">XiGua GitHub profile banner</title>
+  <desc id="desc">A dark signal-routing diagram connecting software, hardware, AI, and media around the XiGua name.</desc>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#252B44" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#A78BFA" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="500" rx="24" fill="#121627"/>
+  <rect width="1600" height="500" rx="24" fill="url(#grid)" opacity=".7"/>
+  <rect x="0" y="0" width="760" height="500" rx="24" fill="url(#fade)"/>
+
+  <g transform="translate(104 96)">
+    <circle cx="126" cy="154" r="104" fill="#A78BFA" opacity=".08" filter="url(#softGlow)"/>
+    <path d="M46 238V70c0-18 14-32 32-32h96c18 0 32 14 32 32v168" fill="#1D2239" stroke="#565E9A" stroke-width="4"/>
+    <path d="M78 101l34 29-34 29M126 165h48" fill="none" stroke="#F1EFFF" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M46 238h160" stroke="#A78BFA" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="46" cy="238" r="8" fill="#63DDC1"/>
+    <circle cx="206" cy="238" r="8" fill="#A78BFA"/>
+    <text x="126" y="292" fill="#A8B2CD" font-size="22" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">~/build/explore</text>
+  </g>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <text x="410" y="208" fill="#F1EFFF" font-size="132" font-weight="740" letter-spacing="-6">XiGua</text>
+    <text x="419" y="262" fill="#A8B2CD" font-size="27" letter-spacing=".4">Computer Science @ Oregon State University</text>
+    <text x="419" y="318" fill="#A78BFA" font-size="31" font-weight="610">Tools for video and desktop workflows</text>
+  </g>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M1230 114h14c21 0 38 17 38 38v195c0 21 17 38 38 38h90" stroke="#444C72" stroke-width="3"/>
+    <path d="M1230 194h6c21 0 38 17 38 38v53c0 21 17 38 38 38h98" stroke="#565E9A" stroke-width="3"/>
+    <path d="M1230 274h180" stroke="#A78BFA" stroke-width="3"/>
+    <path d="M1230 354h6c21 0 38-17 38-38v-53c0-21 17-38 38-38h98" stroke="#565E9A" stroke-width="3"/>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="23">
+    <g><circle cx="1080" cy="114" r="7" fill="#63DDC1"/><text x="1110" y="122" fill="#CED5EE">software</text></g>
+    <g><circle cx="1080" cy="194" r="7" fill="#A78BFA"/><text x="1110" y="202" fill="#CED5EE">hardware</text></g>
+    <g><circle cx="1080" cy="274" r="7" fill="#7AA2F7"/><text x="1110" y="282" fill="#CED5EE">AI</text></g>
+    <g><circle cx="1080" cy="354" r="7" fill="#E2A1E7"/><text x="1110" y="362" fill="#CED5EE">media</text></g>
+    <circle cx="1410" cy="385" r="9" fill="#A78BFA"/>
+    <text x="1437" y="393" fill="#A8B2CD">@dyxiguajun</text>
+  </g>
+
+  <path d="M1465 82h34v34" fill="none" stroke="#A78BFA" stroke-width="3"/>
+  <path d="M1014 418h-34v-34" fill="none" stroke="#565E9A" stroke-width="3"/>
+</svg>
